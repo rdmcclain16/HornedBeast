@@ -1,5 +1,4 @@
 import React from 'react';
-import Bird from '../img/kingfisher-2046453_1920.jpg';
 
 function HornedBeasts(props){
   return(
