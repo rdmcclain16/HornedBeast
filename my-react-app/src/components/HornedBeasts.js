@@ -1,13 +1,13 @@
 import React from 'react';
 
-function HornedBeasts(props){
+function HornedBeasts({image_url, title, description}){
   return(
     <>
       <h2>
-        {props.title}
+        {title}
       </h2>
-      <img height="500px" src={props.imgurl} alt="Bird" title="Bird"/>
-      <p>{props.desc}</p>
+      <img height="500px" src={image_url} alt="Bird" title="Bird"/>
+      <p>{description}</p>
     </>
   );
 }
